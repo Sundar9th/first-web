@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="author" content="p.sundar">
+    <meta name="discription" content="contact our company">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <style>
+legend {
+    color: navy;
+}
+
+button {
+    background: orchid;
+    font-family: 20px;
+    border: 3px ridge purple;
+    padding: 20px;
+}
+
+input,textarea {
+    background: #00ffd5;
+    color: #ff001f;
+    border: 2px outset orange;
+    padding: 5px;
+}
+    </style>
+  </head>
+  <body>
+      <fieldset color="red">
+          <legend>
+              Contact us!
+          </legend>
+          <form action="https://httpbin.org/post" method="post">
+              <label for="name" id="urname">Name :</label>   
+              <input type="name" name="person_name" id="myname" placeholder="(e.g) Andrew" required>
+              <br><br>
+              <hr>
+              <label for="email" id="googleid">E-mail address :"</label>
+              <input type="name" name="person's_email" id="email" placeholder=" (e.g) xxyyzz2010@gmail.com" required>
+              <br><br>
+              <hr>
+              <label>Reason for contacting us :</label>
+              <textarea placeholder="your message" cols=""></textarea>
+              <br><br>
+              <hr> 
+              <button type="submit">
+                  SUBMIT 
+              </button>
+              <button type="reset">
+                  RESET 
+              </button>
+          </form>
+          
+      </fieldset>
+    
+  </body>
+</html>
